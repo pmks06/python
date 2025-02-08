@@ -1,0 +1,10 @@
+def tambah(x, y):
+  return x + y
+
+print(tambah(20, 25))
+
+def welcome_message (tittle):
+    style = "*" * (len(tittle) + 6)
+    print(style)
+    print(f"** {tittle} **")
+    print(style)
