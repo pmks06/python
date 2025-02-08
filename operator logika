@@ -1,0 +1,11 @@
+height = int(input("berapa tinggi badan anda? "))
+credits = int(input("berapa banyak kredit yang anda miliki? "))
+
+if height >= 160  and credits >= 10 :
+  print('nikmatiperjalananya')
+elif credits < 10 and height > 160 :
+  print('anda tidak memiliki cukup tinggi badan untuk berkendara')
+elif height > 160 and credits < 10 :
+  print('anda tidak memiliki cukup kredit')
+else:
+  print('anda tidak memenuhi salah satu persyaratan')
