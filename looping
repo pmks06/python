@@ -1,0 +1,7 @@
+buah = "semabngka"
+start = 0
+ending = 100
+
+while start < ending:
+    print(buah)
+    start = start + 1
