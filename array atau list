@@ -1,0 +1,5 @@
+hobi =  "main game, makan, tidur"
+print(hobi)
+
+hobby = ["main game", "makan", "tidur"]
+print(hobby[2-1])
