@@ -1,0 +1,22 @@
+#macam macam data 
+
+#tipe data string(str)
+nama = "rizki"
+print(nama) #rizki
+print (type(nama))
+
+#tipe data integer(int)
+angka = 123
+print(angka) #123
+print (type(angka))
+
+#tipe data float
+umur = 20.5
+print(umur)
+print(type(umur))
+
+#tipe data boolean
+nama = "panca"
+print (nama == "panca")
+print(type(nama == "panca"))
+
