@@ -1,0 +1,11 @@
+# belajar castig
+#merubah tipe data
+
+data_integer = 100
+print("data integer =", data_integer, "type =", type(data_integer))
+data_string = str(data_integer)
+print("data integer =", data_string, "type =", type(data_string))
+data_float = float(data_integer)
+print("data integer =", data_float, "type =", type(data_float))
+data_bolean = bool(data_integer)
+print("data integer =", data_bolean, "type =", type(data_bolean))
