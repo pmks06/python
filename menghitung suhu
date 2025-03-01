@@ -1,2 +1,24 @@
 temp_f = -1
 temp_c = (temp_f - 32) / 1.8
+
+
+
+mengubah temperatur suhu
+print("\nprogaram konversi temperatur")
+
+celcius = float(input('masukan dalam celcius: '))
+print("suhu adalah ",celcius,"celcius")
+
+#reamur 4/5c
+reamur = (4/5) * celcius
+print("suhu adalah ",reamur,"reamur")
+
+#fahranheait ke kelvin
+
+fahrenheit = (celcius * 9/5) + 32
+print("suhu fahrenheit adalah ",fahrenheit,"fahrenheit")
+
+#kelvin ke fahranheait
+kelvin = celcius + 273.15
+print("suhu kelvin adalah ",kelvin,"kelvin")
+
